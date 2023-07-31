@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Terraform
+*.tfstate
+*.lock.hcl
+
+# Binaries
+*.exe

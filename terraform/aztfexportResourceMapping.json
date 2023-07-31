@@ -1,0 +1,87 @@
+{
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg",
+		"resource_type": "azurerm_resource_group",
+		"resource_name": "res-0"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.ContainerService/managedClusters/aks": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.ContainerService/managedClusters/aks",
+		"resource_type": "azurerm_kubernetes_cluster",
+		"resource_name": "res-1"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.ContainerService/managedClusters/aks/agentPools/nodepool1": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.ContainerService/managedClusters/aks/agentPools/nodepool1",
+		"resource_type": "azurerm_kubernetes_cluster_node_pool",
+		"resource_name": "res-2"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/controlPlaneIdentity": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/controlPlaneIdentity",
+		"resource_type": "azurerm_user_assigned_identity",
+		"resource_name": "res-3"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/kubeletIdentity": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/kubeletIdentity",
+		"resource_type": "azurerm_user_assigned_identity",
+		"resource_name": "res-4"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/azureFirewalls/aks-fw": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/azureFirewalls/aks-fw",
+		"resource_type": "azurerm_firewall",
+		"resource_name": "res-5"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/publicIPAddresses/aks-fwpublicip": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/publicIPAddresses/aks-fwpublicip",
+		"resource_type": "azurerm_public_ip",
+		"resource_name": "res-6"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt",
+		"resource_type": "azurerm_route_table",
+		"resource_name": "res-7"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-fwinternet": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-fwinternet",
+		"resource_type": "azurerm_route",
+		"resource_name": "res-8"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-fwrn": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-fwrn",
+		"resource_type": "azurerm_route",
+		"resource_name": "res-9"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-nodepool1-40643304-vmss000000____102440024": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-nodepool1-40643304-vmss000000____102440024",
+		"resource_type": "azurerm_route",
+		"resource_name": "res-10"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-nodepool1-40643304-vmss000001____102442024": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-nodepool1-40643304-vmss000001____102442024",
+		"resource_type": "azurerm_route",
+		"resource_name": "res-11"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-nodepool1-40643304-vmss000002____102441024": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/routeTables/aks-fwrt/routes/aks-nodepool1-40643304-vmss000002____102441024",
+		"resource_type": "azurerm_route",
+		"resource_name": "res-12"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet",
+		"resource_type": "azurerm_virtual_network",
+		"resource_name": "res-13"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet/subnets/AzureFirewallSubnet": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet/subnets/AzureFirewallSubnet",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-14"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet/subnets/aks-subnet": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet/subnets/aks-subnet",
+		"resource_type": "azurerm_subnet",
+		"resource_name": "res-15"
+	},
+	"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet/subnets/aks-subnet/routeTables/L3N1YnNjcmlwdGlvbnMvOTQ5MGVlZmEtZjJhZi00NDg1LTk4M2YtNjMzOTdiZmI1Mzg2L3Jlc291cmNlR3JvdXBzL2Frcy1yZy9wcm92aWRlcnMvTWljcm9zb2Z0Lk5ldHdvcmsvcm91dGVUYWJsZXMvYWtzLWZ3cnQ=": {
+		"resource_id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet/subnets/aks-subnet",
+		"resource_type": "azurerm_subnet_route_table_association",
+		"resource_name": "res-16"
+	}
+}
